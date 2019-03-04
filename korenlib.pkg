@@ -9,3 +9,5 @@ f xtbootstrap.ado
 f csvmerge.ado
 f save_to_json.ado
 f save_all_to_json.ado
+f regram.ado
+f permute.ado

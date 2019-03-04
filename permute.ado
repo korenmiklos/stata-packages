@@ -1,3 +1,4 @@
+program define permute
 /* Given a datafile, permute each of its variables.
 The resulting datafile replicates the exact marginal distribution of each variable,
 but contains no information about their joint distribution.
@@ -33,3 +34,5 @@ foreach X in `variables' {
 drop index
 save `1'_permuted, replace
 set more on
+
+end

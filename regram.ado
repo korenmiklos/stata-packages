@@ -1,3 +1,4 @@
+program define regram
 args tablefile specname speclabel
 
 * create directory if needed
@@ -64,3 +65,4 @@ foreach X in R2 observations `_others'{
 }
 
 file close `output'
+end
